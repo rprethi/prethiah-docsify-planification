@@ -1,5 +1,54 @@
 # Planification Luminatura
 
+## Synoptique
+```mermaid
+
+graph TD;
+
+    %% Composants
+        Ordinateur[Contrôle central - Ordinateur]
+        DMX[USB DMX]
+        Lumiere[Lumière]
+        Ampoule[Ampoule]
+        CarteSon[Carte de son]
+        HautParleur[Haut-parleur]
+        SortieAudio[Sortie audio]
+        PlaqueMetalique[Plaque métallique]
+        CapteurSensing[Capteur sensing]
+
+    %% Emplacements
+    subgraph Rideaux
+        Ordinateur
+    end
+
+    subgraph Plafond
+        DMX
+        Lumiere
+        Ampoule
+    end
+
+    subgraph Sol
+        CarteSon
+        HautParleur
+        SortieAudio
+    end
+
+    subgraph Studio
+        PlaqueMetalique
+        CapteurSensing
+    end
+
+    %% Connexions
+    Ordinateur -->|USB| DMX
+    Ordinateur -->|USB| CarteSon
+    Ordinateur -->|Signal| PlaqueMetalique
+    PlaqueMetalique -->|Signal| CapteurSensing
+    DMX -->|Câble DMX| Lumiere
+    Lumiere -->|Câble électrique| Ampoule
+    CarteSon -->|Câble audio| HautParleur
+    HautParleur -->|Câble audio| SortieAudio
+
+```
 
 ## Scénarimage
 ---
