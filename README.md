@@ -1,5 +1,18 @@
 # Planification Luminatura
 
+***Luminatura***, où la lumière et la nature s'entrelacent pour éclairer l'esprit à travers la magie des lanternes.
+
+## Concept
+---
+
+***Luminatura*** est une installation immersive alliant art et technologie, où des lanternes illuminent votre parcours et des vignes décorent l'espace, créant une atmosphère accueillante. En touchant une plaque métallique, la chaleur corporelle de l'utilisateur déclenche une réponse lumineuse et sonore, illustrant le potentiel de transformation que chacun détient sur son environnement.
+
+### Mise en contexte
+
+À l'entrée de l'installation, le visiteur est accueilli par la douce lumière des lanternes suspendues et les vignes décoratives qui créent une ambiance de tranquillité.
+
+En touchant la plaque, le visiteur déclenche une lumière douce et chaleureuse, accompagnée de sons apaisants de la nature. Ce moment intime lui permet de réfléchir à ses propres expériences de transformation et d’éveiller des émotions profondes, soulignant le pouvoir de l'art et de la technologie pour toucher l’âme humaine.
+
 ## Synoptique
 ```mermaid
 
@@ -121,6 +134,7 @@ graph TD;
 | Protocole DMX            | QLC+     | Lumiere et logiciel |
 
 ### Allocation des responsabilités
+---
 #### Préparation des espaces
 
 * Électricité
