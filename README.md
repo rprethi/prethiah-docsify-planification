@@ -1,4 +1,5 @@
 # Planification Luminatura
+---
 
 ***Luminatura***, où la lumière et la nature s'entrelacent pour éclairer l'esprit à travers la magie des lanternes.
 
@@ -11,9 +12,10 @@
 
 À l'entrée de l'installation, le visiteur est accueilli par la douce lumière des lanternes suspendues et les vignes décoratives qui créent une ambiance de tranquillité.
 
-En touchant la plaque, le visiteur déclenche une lumière douce et chaleureuse, accompagnée de sons apaisants de la nature. Ce moment intime lui permet de réfléchir à ses propres expériences de transformation et d’éveiller des émotions profondes, soulignant le pouvoir de l'art et de la technologie pour toucher l’âme humaine.
+En touchant la plaque, le visiteur déclenche une lumière douce et chaleureuse, accompagnée de sons apaisants de la nature. Ce moment intime lui permet de réfléchir à ses propres expériences de transformation et d’éveiller des émotions profondes, soulignant le pouvoir de l'art et de la technologie pour toucher l'âme humaine.
 
 ## Synoptique
+---
 ```mermaid
 
 graph TD;
@@ -22,22 +24,22 @@ graph TD;
         Ordinateur[Contrôle central - Ordinateur]
         DMX[USB DMX]
         Lumiere[Lumière]
-        Ampoule[Ampoule]
+        Ampoule[Ampoules]
         CarteSon[Carte de son]
-        HautParleur[Haut-parleur]
+        HautParleur[Haut-parleurs]
         SortieAudio[Sortie audio]
         PlaqueMetalique[Plaque métallique]
         CapteurSensing[Capteur sensing]
 
     %% Emplacements
-    subgraph Rideaux
+    subgraph Derrière les rideaux
         Ordinateur
     end
 
     subgraph Plafond
         DMX
         Lumiere
-        Ampoule
+        Ampoule 
     end
 
     subgraph Sol
@@ -81,71 +83,72 @@ graph TD;
 ## Simulation
 ---
 
-
 ## Devis Technique
 ---
 ### Équipements et matériaux
 ---
-### Équipement fourni par l’artiste
+### Équipements fournis par l’artiste
 
-- 15 Vignes Artificielles
-- 10 Ampoules LED 
-- 1 Plaque métallique 
-- 10 Lanternes en polycarbonate
+- 15 vignes artificielles
+- 10 ampoules LED 
+- 1 plaque métallique 
+- 10 lanternes en polycarbonate
 - Régulateur de tension
 - Fil de cuivre ou d'acier
+  
+#### Capteurs et évaluation
 
-#### Capteurs et Évaluation
+| Capteur de type « sensing capacitif »                    | Composants                   |
+| -------------------------------------------------------- | ---------------------------- |
+| Carte d'évaluation pour microcontrôleurs embarqués (MCU) | Arduino A000066              |
+| Résistances traversantes                                 | YAGEO CFR-25JB-52-3M6        |
+| Carte d'évaluation de capteurs                           | Adafruit Industries LLC 1374 |
 
-| Capteur de type «sensing capacitif»                       | Composants                   |
-| --------------------------------------------------------- | ---------------------------- |
-| Cartes d'évaluation pour microcontrôleurs embarqués (MCU) | Arduino A000066              |
-| Résistances traversantes                                  | YAGEO CFR-25JB-52-3M6        |
-| Cartes d'évaluation de capteurs                           | Adafruit Industries LLC 1374 |
+#### Support en métal
 
-#### Support en Métal
+| Support en métal pour la plaque métallique | Composants                        |
+| ------------------------------------------ | --------------------------------- |
+| 1 tube en acier ou en aluminium            | Structure principale du « stand » |
+| 1 base plate                               | Assurer la stabilité du « stand » |
+| Vis et boulons                             | Assemblage et durabilité          |
 
-| Support en métal pour la plaque métallique | Composants                          |
-| ------------------------------------------ | ----------------------------------- |
-| 1 Tube en acier ou en aluminium            | Structure principale du « stand »   |
-| 1 Base plate                               | Assurer la stabilité du « stand »   |
-| Vis et boulons                             | Assembler et garantir la durabilité |
-
-### Équipement fourni par le cégep
+### Équipements fournis par le cégep
 
 - Câbles (HDMI, Ethernet, audio)
 - Éléments de fixation
 - Fils de prototypage
-- 1 Ordinateur (gestion des interactions en temps réel)
-- 2 Haut-parleurs
+- 1 ordinateur (gestion des interactions en temps réel)
+- 2 haut-parleurs
 
 ### Logiciels
+
 ---
 ### Logiciels fournis par l’artiste
   
-| Logiciel | Technique                                                                |
-| -------- | ------------------------------------------------------------------------ |
-| Reaper   | Montage sonore (base)                                                    |
-| Arduino  | Capteur de type «sensing capacitif» et connecter les composants ensemble |
+| Logiciel | Technique                                                         |
+| -------- | ----------------------------------------------------------------- |
+| Reaper   | Montage sonore (de base)                                          |
+| Arduino  | Capteur de type « sensing capacitif » et connexion des composants |
 
 ### Logiciels fournis par le cégep
 
-| Logiciel  | Technique                                                 |
-| --------- | --------------------------------------------------------- |
-| Pure Data | Modifier des paramètres audio en réponse à des événements |
-| QLC+      | Création des scènes lumineuses                            |
-| Plugdata  | Modifier la couleur des lumières                          |
+| Logiciel  | Technique                                                     |
+| --------- | ------------------------------------------------------------- |
+| Pure Data | Modification des paramètres audio en réponse à des événements |
+| QLC+      | Création des scènes lumineuses                                |
+| Plugdata  | Modification de la couleur des lumières                       |
 
-### Mise en réseau et de communication
+### Mise en réseau et communication
+
 ---
-### Fournis par le cégep
+### Fourni par le cégep
 
 | Système de communication | Logiciel | Interaction         |
 | ------------------------ | -------- | ------------------- |
 | Protocole MIDI           | LoopMidi | QLC+ et Plugdata    |
-| Protocole DMX            | QLC+     | Lumiere et logiciel |
+| Protocole DMX            | QLC+     | Lumière et logiciel |
 
-### Allocation des responsabilités
+### Répartition des responsabilités
 ---
 #### Préparation des espaces
 
