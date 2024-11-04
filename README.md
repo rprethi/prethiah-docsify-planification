@@ -55,7 +55,7 @@ graph TD;
 ![scenario-01](https://github.com/user-attachments/assets/d41d4dce-4b6a-4922-97ff-12884e7b8079) ![scenario-02](https://github.com/user-attachments/assets/d72a3d0d-e8c1-4bf6-8a8d-80d27c868063)
 ![scenario-03](https://github.com/user-attachments/assets/eae70c4e-f6a7-4944-8863-c7126459fb40) ![scenario-04](https://github.com/user-attachments/assets/d50373c7-be7c-4c39-bb6c-e9024a0f8159)
 ![scenario-04a](https://github.com/user-attachments/assets/2e0a0d2e-1b04-467d-8c49-f1acf2bee7f8) ![scenario-04b](https://github.com/user-attachments/assets/82d4bab8-3c75-4102-bcc8-095d7487d53e)
-![scenario-05](https://github.com/user-attachments/assets/90535f8f-8f83-4c30-8807-055a73e752f0) ![scenario-06](https://github.com/user-attachments/assets/fcc12c72-bfbe-4a13-90ab-e313f6e03afa)
+![scenario-05](https://github.com/user-attachments/assets/801095f6-4f3d-4782-905f-caee951f0b83) ![scenario-06](https://github.com/user-attachments/assets/fcc12c72-bfbe-4a13-90ab-e313f6e03afa)
 
 ## Devis Technique
 ---
