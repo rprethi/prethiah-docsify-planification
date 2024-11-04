@@ -122,7 +122,7 @@ graph TD;
 - 1 ordinateur (gestion des interactions en temps réel)
 - 2 haut-parleurs
 
-### Logiciels
+### Logiciels 
 
 ---
 ### Logiciels fournis par l’artiste
