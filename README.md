@@ -91,12 +91,16 @@ graph TD;
 ---
 ### Équipements fournis par l’artiste
 
-- 15 vignes artificielles
+- 15 vignes artificielles en plastique 
 - 10 ampoules LED 
-- 1 plaque métallique 
+- 1 plaque acier inoxydable 
 - 10 lanternes en polycarbonate
 - Régulateur de tension
-- Fil de cuivre ou d'acier
+- Câbles en acier inoxydable
+- Boucles avec embouts pour câble inoxydable
+- Éléments de fixation
+- Plaque ronde d'acier (épaisseur 1mm)
+- Plaques isolantes 
   
 #### Capteurs et évaluation
 
@@ -110,17 +114,16 @@ graph TD;
 
 | Support en métal pour la plaque métallique | Composants                        |
 | ------------------------------------------ | --------------------------------- |
-| 1 tube en acier ou en aluminium            | Structure principale du « stand » |
+| 1 tube en acier                            | Structure principale du « stand » |
 | 1 base plate                               | Assurer la stabilité du « stand » |
 | Vis et boulons                             | Assemblage et durabilité          |
 
 ### Équipements fournis par le cégep
 
 - Câbles (HDMI, Ethernet, audio)
-- Éléments de fixation
 - Fils de prototypage
 - 1 ordinateur (gestion des interactions en temps réel)
-- 2 haut-parleurs
+- 2 haut-parleurs GENELEC 8040B
 
 ### Logiciels 
 
