@@ -84,8 +84,8 @@ graph TD;
 
 ## Simulation
 ---
-![rendu3d-01](https://github.com/user-attachments/assets/f430819c-2b87-4be4-9444-83088abfe75a)
-![rendu3d-02](https://github.com/user-attachments/assets/65222d73-c413-46ed-921c-93ff0e1e6542)
+![rendu-maya01](https://github.com/user-attachments/assets/89536243-ae79-42b5-87bd-fa09cee2df51)
+![rendu-maya02](https://github.com/user-attachments/assets/b75b4c48-65fb-4327-9752-b4b08994befc)
 
 ## Devis Technique
 ---
