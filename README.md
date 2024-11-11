@@ -79,7 +79,7 @@ graph TD;
 
 ## Plantation
 ---
-![plantation-02](https://github.com/user-attachments/assets/daebed22-627d-4997-bb69-0f5eb2dd6516)
+![plantation-02](https://github.com/user-attachments/assets/a826c99c-b615-466d-a76e-416cb2f87f71)
 ![plantation-01](https://github.com/user-attachments/assets/d5622349-2009-4c0f-9889-24cc2a8d405c)
 
 ## Simulation
