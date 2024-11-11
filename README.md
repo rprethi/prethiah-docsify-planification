@@ -6,7 +6,7 @@
 ## Concept
 ---
 
-***Luminatura*** est une installation immersive alliant art et technologie, où des lanternes illuminent votre parcours et des vignes décorent l'espace, créant une atmosphère accueillante. En touchant une plaque métallique, le capteur de capacitance détecte la conductibilite de la main de l'utilisateur déclenche une réponse lumineuse et sonore, illustrant le potentiel de transformation que chacun détient sur son environnement.
+***Luminatura*** est une installation immersive alliant art et technologie, où des lanternes illuminent votre parcours et des vignes décorent l'espace, créant ainsi une atmosphère accueillante. En touchant une plaque métallique, le capteur capacitif détecte la conductivité des mains de l'utilisateur et déclenche une réponse lumineuse et sonore, illustrant le potentiel de transformation que chacun peut exercer sur son environnement.
 
 ### Mise en contexte
 
@@ -17,22 +17,22 @@ En touchant la plaque, le visiteur déclenche une lumière douce et chaleureuse,
 ## Synoptique
 ---
 ```mermaid
-
 graph TD;
 
-    %% Composants
-        Ordinateur[Contrôle central - Ordinateur]
-        DMX[USB DMX]
-        Lumiere[Lumière]
-        Ampoule[Ampoules]
-        CarteSon[Carte de son]
-        HautParleur[Haut-parleurs]
-        SortieAudio[Sortie audio]
-        PlaqueMetalique[Plaque métallique]
-        CapteurSensing[Capteur sensing]
+%% Composants
+    Ordinateur[Contrôle central - Ordinateur]
+    DMX[USB DMX]
+    Lumiere[Lumière]
+    Ampoule[Ampoules]
+    CarteSon[Carte de son]
+    HautParleur[Haut-parleurs]
+    SortieAudio[Sortie audio]
+
+    PlaqueMetalique[Plaque métallique]
+    ArduinoA000066[Arduino A000066]
 
     %% Emplacements
-    subgraph Derrière les rideaux
+    subgraph Caché des utilisateurs
         Ordinateur
     end
 
@@ -40,24 +40,23 @@ graph TD;
         DMX
         Lumiere
         Ampoule 
-    end
-
-    subgraph Sol
         CarteSon
         HautParleur
         SortieAudio
     end
 
-    subgraph Studio
+    subgraph GrandStudio
         PlaqueMetalique
-        CapteurSensing
+        ArduinoA000066
     end
 
     %% Connexions
     Ordinateur -->|USB| DMX
-    Ordinateur -->|USB| CarteSon
-    Ordinateur -->|Signal| PlaqueMetalique
-    PlaqueMetalique -->|Signal| CapteurSensing
+    Ordinateur --> CarteSon
+    Ordinateur -.-> PlaqueMetalique
+    PlaqueMetalique -->|Capteur de capacitance Adafruit Industries LLC 1374| ArduinoA000066
+    ArduinoA000066 -->|Contrôle Lumière| Lumiere
+    ArduinoA000066 -->|Contrôle Son| CarteSon
     DMX -->|Câble DMX| Lumiere
     Lumiere -->|Câble électrique| Ampoule
     CarteSon -->|Câble audio| HautParleur
