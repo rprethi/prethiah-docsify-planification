@@ -78,7 +78,8 @@ graph TD;
 
 ## Plantation
 ---
-![plantation-01](https://github.com/user-attachments/assets/c9210b69-61c2-490e-b207-cd145620a761)
+![schema-plantation-01](https://github.com/user-attachments/assets/66ec237c-0b91-4a3f-b786-73da600bc25c)
+![schema-plantation-02](https://github.com/user-attachments/assets/4d6c2dc3-6f01-41d4-8944-909f7c4e9e41)
 
 ## Simulation
 ---
